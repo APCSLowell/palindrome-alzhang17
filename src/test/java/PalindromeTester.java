@@ -25,6 +25,7 @@ public class PalindromeTester {
 
    @Test
    public void word(){
+        PalindromeChecker sim = new PalindromeChecker();
         assertEquals(false, sim.palindrome("test"));
         assertEquals(true, sim.palindrome("rotator"));
         assertEquals(false, sim.palindrome("rewriter"));
